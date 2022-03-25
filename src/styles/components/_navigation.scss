@@ -1,0 +1,147 @@
+.navContainer {
+  background-color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 100%;
+  .Menu {
+    display: none;
+  }
+  .NavInContainer {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .linkDiv {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      .nav-active {
+        &::after {
+          content: "";
+          height: 4px;
+          width: 100%;
+          background: blue;
+          position: absolute;
+          border-radius: 10px;
+          // top: 55px;
+          // left: 60%;
+          transform: translateX(-73%);
+          -webkit-animation: anim 0.4s ease forwards;
+          animation: anim 0.6s ease forwards;
+
+          @-webkit-keyframes anim {
+            to {
+              width: 100%;
+            }
+          }
+          @keyframes anim {
+            to {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .left {
+      grid-column: 1;
+      display: flex;
+      align-items: center;
+      .MenuButton {
+        display: none;
+      }
+      h2 {
+        color: $color-1;
+        padding-right: 40px;
+      }
+      li {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 1.25rem;
+        color: black;
+        transition: 0.2s;
+      }
+
+      li:hover {
+        color: blue;
+        cursor: pointer;
+      }
+    }
+    .Right {
+      grid-column: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .navContainer {
+    padding: 0;
+
+    .Menu {
+      left: -100%;
+      grid-template-rows: 100px 90%;
+      position: absolute;
+      z-index: 2;
+      background: white;
+      width: 200px;
+      height: 100%;
+      box-shadow: 0 2rem 3rem $color-background-white;
+      animation: showMenu 400ms ease forwards;
+      @keyframes showMenu {
+        to {
+          left: 0;
+        }
+      }
+      .TitleMenuContainer {
+        grid-row: 1;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        .close {
+          cursor: pointer;
+          margin-left: 45px;
+          margin-top: 10px;
+        }
+      }
+      .Bot {
+        grid-row: 2;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+      }
+    }
+    .NavInContainer {
+      .linkDiv {
+        display: none;
+      }
+      .left {
+        .Title {
+          display: none;
+        }
+        .MenuButton {
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: blue;
+          margin-left: 30px;
+
+          .openMenu {
+            #openMenuButton {
+              font-size: 50px;
+            }
+          }
+          h2 {
+            // padding-left: 2%;
+            padding-right: 0px;
+          }
+        }
+      }
+    }
+  }
+}

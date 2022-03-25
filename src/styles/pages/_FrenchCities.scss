@@ -1,0 +1,25 @@
+.map {
+  .Midle {
+    .svg {
+      position: absolute;
+      z-index: 999;
+      fill: transparent;
+      rect {
+        cursor: pointer;
+      }
+    }
+    .CitiesPoints {
+      position: absolute;
+
+      .cls-1 {
+        transition: 0.3s;
+        fill: black;
+      }
+    }
+    .zoom {
+      transition: 0.4s ease;
+      stroke: white;
+      stroke-width: 2rem;
+    }
+  }
+}

@@ -1,0 +1,174 @@
+.map {
+  background-color: $color-background-white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+
+  .LeftPhoto {
+    height: 100vh;
+    background: white;
+    width: 75%;
+    margin: 7.5% auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 2rem 3rem $box-shadow;
+
+    &:hover {
+      box-shadow: 0 2rem 3rem $color-background-white;
+    }
+
+    .Image {
+      grid-column: 1;
+      width: 100%;
+      position: relative;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      padding-top: 2rem;
+      img {
+        border-radius: 30px;
+        width: 100%;
+      }
+      p {
+        position: absolute;
+        top: 70%;
+        left: 60%;
+        color: $color-background-white;
+      }
+    }
+  }
+
+  .Midle {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    .QuestionDisplay {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      width: 100%;
+      height: 105px;
+      background: white;
+      top: 4%;
+      border-radius: 15px;
+      box-shadow: 0 2rem 3rem $box-shadow;
+      p {
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      &:hover {
+        box-shadow: 0 2rem 3rem $color-background-white;
+      }
+    }
+    path {
+      fill: blue;
+      stroke: white;
+      stroke-width: 6px;
+      transition: fill 0.3s;
+    }
+    path:hover {
+      fill: cyan;
+      cursor: pointer;
+    }
+  }
+
+  .stats {
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 7.5% auto;
+    width: 75%;
+    height: 25%;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 2rem 3rem $box-shadow;
+    &:hover {
+      box-shadow: 0 2rem 3rem $color-background-white;
+    }
+    p {
+      color: black;
+      font-size: 2rem;
+    }
+    .Title {
+      display: flex;
+      align-items: center;
+      img {
+        padding-right: 0.5rem;
+        width: 45px;
+        height: 30px;
+      }
+    }
+  }
+}
+
+//tablette
+
+@media screen and (max-height: 820px) {
+  .map {
+    grid-template-columns: 1fr;
+    .LeftPhoto {
+      display: none;
+    }
+    .Midle {
+      grid-column: 1;
+      grid-row: 1;
+      .QuestionDisplay {
+        position: absolute;
+        left: 10%;
+        width: 25%;
+        height: 10%;
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+    .stats {
+      grid-column: 1;
+      position: absolute;
+      width: 20%;
+      height: 25%;
+      top: 4%;
+      right: 4%;
+      margin: 0;
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  svg {
+    width: 800px;
+    height: 730px;
+  }
+}
+
+@media screen and (min-height: 900px) and (max-height: 1000px) {
+  svg,
+  .FrenchMapCities {
+    width: 950px;
+    height: 850px;
+  }
+}
+
+//ecran 27pouces
+
+@media screen and (min-height: 1200px) and (max-height: 1300px) {
+  .Phototitle {
+    font-size: 2rem;
+  }
+  svg,
+  .FrenchMapCities {
+    width: 1200px;
+    height: 1233px;
+  }
+}
