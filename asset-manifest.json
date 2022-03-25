@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Deploy/static/css/main.d00a5678.css",
-    "main.js": "/React-Deploy/static/js/main.ce98492a.js",
+    "main.js": "/React-Deploy/static/js/main.29b2a9e4.js",
     "static/media/EiffeilTower.png": "/React-Deploy/static/media/EiffeilTower.34186a77df77050c47ba.png",
     "static/media/SaintMichel.png": "/React-Deploy/static/media/SaintMichel.dd5df572ab572a9865a2.png",
     "static/media/capitoleToulouse.png": "/React-Deploy/static/media/capitoleToulouse.ebe4cb743895ef3b40f3.png",
@@ -9,10 +9,10 @@
     "static/media/Frenchflag.png": "/React-Deploy/static/media/Frenchflag.828f6abcf6d439701448.png",
     "index.html": "/React-Deploy/index.html",
     "main.d00a5678.css.map": "/React-Deploy/static/css/main.d00a5678.css.map",
-    "main.ce98492a.js.map": "/React-Deploy/static/js/main.ce98492a.js.map"
+    "main.29b2a9e4.js.map": "/React-Deploy/static/js/main.29b2a9e4.js.map"
   },
   "entrypoints": [
     "static/css/main.d00a5678.css",
-    "static/js/main.ce98492a.js"
+    "static/js/main.29b2a9e4.js"
   ]
 }
