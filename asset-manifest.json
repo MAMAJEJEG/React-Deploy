@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Deploy/static/css/main.d00a5678.css",
-    "main.js": "/React-Deploy/static/js/main.e87e033e.js",
-    "static/media/EiffeilTower.png": "/React-Deploy/static/media/EiffeilTower.34186a77df77050c47ba.png",
-    "static/media/SaintMichel.png": "/React-Deploy/static/media/SaintMichel.dd5df572ab572a9865a2.png",
-    "static/media/capitoleToulouse.png": "/React-Deploy/static/media/capitoleToulouse.ebe4cb743895ef3b40f3.png",
-    "static/media/SpainFlag.png": "/React-Deploy/static/media/SpainFlag.453b96299a3d1bffd0bc.png",
-    "static/media/Frenchflag.png": "/React-Deploy/static/media/Frenchflag.828f6abcf6d439701448.png",
-    "index.html": "/React-Deploy/index.html",
-    "main.d00a5678.css.map": "/React-Deploy/static/css/main.d00a5678.css.map",
-    "main.e87e033e.js.map": "/React-Deploy/static/js/main.e87e033e.js.map"
+    "main.css": "/static/css/main.d00a5678.css",
+    "main.js": "/static/js/main.6a3cc2f6.js",
+    "static/media/EiffeilTower.png": "/static/media/EiffeilTower.34186a77df77050c47ba.png",
+    "static/media/SaintMichel.png": "/static/media/SaintMichel.dd5df572ab572a9865a2.png",
+    "static/media/capitoleToulouse.png": "/static/media/capitoleToulouse.ebe4cb743895ef3b40f3.png",
+    "static/media/SpainFlag.png": "/static/media/SpainFlag.453b96299a3d1bffd0bc.png",
+    "static/media/Frenchflag.png": "/static/media/Frenchflag.828f6abcf6d439701448.png",
+    "index.html": "/index.html",
+    "main.d00a5678.css.map": "/static/css/main.d00a5678.css.map",
+    "main.6a3cc2f6.js.map": "/static/js/main.6a3cc2f6.js.map"
   },
   "entrypoints": [
     "static/css/main.d00a5678.css",
-    "static/js/main.e87e033e.js"
+    "static/js/main.6a3cc2f6.js"
   ]
 }
