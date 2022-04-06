@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Deploy/static/css/main.c9f89a34.css",
-    "main.js": "/React-Deploy/static/js/main.f128ad62.js",
+    "main.css": "/React-Deploy/static/css/main.3fa892bb.css",
+    "main.js": "/React-Deploy/static/js/main.b2fc9c9b.js",
     "static/media/EiffeilTower.png": "/React-Deploy/static/media/EiffeilTower.34186a77df77050c47ba.png",
     "static/media/SaintMichel.png": "/React-Deploy/static/media/SaintMichel.dd5df572ab572a9865a2.png",
     "static/media/capitoleToulouse.png": "/React-Deploy/static/media/capitoleToulouse.ebe4cb743895ef3b40f3.png",
     "static/media/SpainFlag.png": "/React-Deploy/static/media/SpainFlag.453b96299a3d1bffd0bc.png",
     "static/media/Frenchflag.png": "/React-Deploy/static/media/Frenchflag.828f6abcf6d439701448.png",
     "index.html": "/React-Deploy/index.html",
-    "main.c9f89a34.css.map": "/React-Deploy/static/css/main.c9f89a34.css.map",
-    "main.f128ad62.js.map": "/React-Deploy/static/js/main.f128ad62.js.map"
+    "main.3fa892bb.css.map": "/React-Deploy/static/css/main.3fa892bb.css.map",
+    "main.b2fc9c9b.js.map": "/React-Deploy/static/js/main.b2fc9c9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9f89a34.css",
-    "static/js/main.f128ad62.js"
+    "static/css/main.3fa892bb.css",
+    "static/js/main.b2fc9c9b.js"
   ]
 }
